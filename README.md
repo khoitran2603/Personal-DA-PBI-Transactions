@@ -24,14 +24,15 @@ It demonstrates how personal finance data can be transformed into insights — u
 ## Spending Structure
 - Fixed: 51% (housing, utilities, subscriptions)
 - Semi-fixed: 20% (car + groceries)
-- Flexible: 29% (eating out, entertainment, shopping, vacations)
+- Flexible: 27% (eating out, entertainment, shopping, vacations)
+- Other: 3% (new categories)
 
 👉 Insight: Over half of my budget is locked, but flexible areas still leave room for control.
 
 ## Where I Spend It
-- CBD: 19% of Eating Out (restaurants, weekends) and 57% of Retail Shopping (clothes, electronics).
-- Suburb (Caulfield + Malvern East): 16% of Eating Out (fast food + convenience during daily walks).
-- Motor Vehicle: 30% on fuel (Oakleigh/Tottenham), 15% on CBD parking.
+- CBD: 13% of Eating Out (restaurants, weekends) and 48% of Retail Shopping (clothes, electronics).
+- Suburb (Caulfield + Malvern East): 11% of Eating Out (fast food + convenience during daily walks).
+- Motor Vehicle: 10% on fuel (Oakleigh/Tottenham), 6% on CBD parking.
 
 👉 Insight: Location reflects lifestyle: CBD = leisure/social, Suburb = routine, Oakleigh/Tottenham = travel/social.
 
