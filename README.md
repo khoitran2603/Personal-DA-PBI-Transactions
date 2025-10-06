@@ -31,7 +31,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
   <em>Fig. 2: Spending by Categories</em>
 </p>
 
-👉 Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from annual insurance and plate renewal every 6 months. Eating Out reflected day-to-day convenience and occasional social dining.
+Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from annual insurance and plate renewal every 6 months. Eating Out reflected day-to-day convenience and occasional social dining.
 
 ## Trends & Shifts
 
@@ -46,7 +46,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
 - Average spend per purchase dropped from $71 → $47, meaning more small, everyday transactions replaced fewer large ones.
 - Net position peaked at +$852 in Feb before dipping to –$55 in Aug.
 
-👉 Temporary family-related events explain the spikes in overspending. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
+Temporary family-related events explain the spikes in overspending. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
 
 ## Spending Structure
 
@@ -70,7 +70,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
 - Flexible: eating out, entertainment, retail, vacations
 - Other: new or irregular categories
 
-👉 Over half my budget is locked into fixed commitments. Semi-fixed costs (car and groceries) fluctuate slightly each month. Flexible spend is the main lever I can adjust — this is where lifestyle and choice-driven spending sit.
+Over half my budget is locked into fixed commitments. Semi-fixed costs (car and groceries) fluctuate slightly each month. Flexible spend is the main lever I can adjust — this is where lifestyle and choice-driven spending sit.
 
 ## Where I Spend It
 
@@ -87,7 +87,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
     + Fuel in Tottenham (close to a friend’s place).
     + 15% on CBD parking (mainly weekends).
 
-👉 Location reflects practical choices: CBD for leisure/shopping, local suburb for daily routines, Oakleigh and Tottenham for convenient refuelling near travel routes or visits.
+Location reflects practical choices: CBD for leisure/shopping, local suburb for daily routines, Oakleigh and Tottenham for convenient refuelling near travel routes or visits.
 
 ## Key Takeaways (Jan-Aug 2025)
 1. Housing dominates at 43%, anchoring spending every month.
