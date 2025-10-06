@@ -55,7 +55,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
   <em>Fig. 2: Spending by Categories</em>
 </p>
 
-Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from **annual insurance** and **plate renewal every 6 months**. Eating Out reflected day-to-day convenience and occasional social dining.
+Paying rent (Housing) was the biggest expense every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from **annual insurance** and **plate renewal every 6 months**. Eating Out reflected day-to-day convenience and occasional social dining.
 
 ## Trends & Shifts
 
