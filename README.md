@@ -8,6 +8,21 @@ It aims to understand how real-world behaviors — like fixed commitments, famil
 Personal finance data is often unstructured, inconsistent, and event-driven, making meaningful analysis difficult.
 My biggest challenge was to standardize multiple bank exports (ANZ, Westpac, etc.) into one consistent dataset and classify transactions that mix essentials (rent, utilities) with one-off events (travel, car insurance).
 
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="docs/dataset_raw.png" width="100%"/><br />
+        <em>Westpac raw dataset</em>
+      </td>
+      <td align="center">
+        <img src="docs/dataset_raw_anz.png" width="80%"/><br />
+        <em>ANZ raw dataset</em>
+      </td>
+    </tr>
+  </table>
+</p>
+
 Instead of focusing on daily precision, I built a system designed for monthly accuracy, allowing me to observe realistic spending trends while accepting small timing delays in transaction posting.
 
 # Project Building Summary
