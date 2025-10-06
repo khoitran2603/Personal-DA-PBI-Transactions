@@ -1,11 +1,23 @@
-## About the Project
-This project applies data analytics techniques to my own bank transactions for the period from January to August 2025.
+# Introduction
 
-The goal is to analyse spending behaviour, identify patterns and anchors, and present findings in a clear, professional dashboard/report format.
+### About the Project
+This project analyzes my own bank transactions from January to August 2025, turning raw personal finance data into clear, actionable insights.
+It aims to understand how real-world behaviors — like fixed commitments, family events, and convenience-driven habits — shape monthly spending patterns.
 
-It demonstrates how personal finance data can be transformed into insights — useful both for self-management and as a showcase of my data storytelling skills in a portfolio.
+### Project Challenge
+Personal finance data is often unstructured, inconsistent, and event-driven, making meaningful analysis difficult.
+My biggest challenge was to standardize multiple bank exports (ANZ, Westpac, etc.) into one consistent dataset and classify transactions that mix essentials (rent, utilities) with one-off events (travel, car insurance).
 
-## Snapshot
+Instead of focusing on daily precision, I built a system designed for monthly accuracy, allowing me to observe realistic spending trends while accepting small timing delays in transaction posting.
+
+# Project Building Summary
+
+
+# Results
+
+You can download the Power BI dashboard [here*](https://github.com/khoitran2603/Sales-Trends-and-Inventory-Analysis/blob/main/code/PigmentSquad_dashboard.pbix)
+
+### Snapshot
 
 <p align="center">
   <img src="docs/kpi.png" width="80%"/>
@@ -21,7 +33,7 @@ It demonstrates how personal finance data can be transformed into insights — u
 
 👉 Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from annual insurance and plate renewal every 6 months. Eating Out reflected day-to-day convenience and occasional social dining.
 
-## Trends & Shifts
+### Trends & Shifts
 
 <p align="center">
   <img src="docs/income_expense.png" width="60%"/>
@@ -36,7 +48,7 @@ It demonstrates how personal finance data can be transformed into insights — u
 
 👉 Temporary family-related events explain the spikes in overspending. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
 
-## Spending Structure
+### Spending Structure
 
 <p align="center">
   <table>
@@ -60,7 +72,7 @@ It demonstrates how personal finance data can be transformed into insights — u
 
 👉 Over half my budget is locked into fixed commitments. Semi-fixed costs (car and groceries) fluctuate slightly each month. Flexible spend is the main lever I can adjust — this is where lifestyle and choice-driven spending sit.
 
-## Where I Spend It
+### Where I Spend It
 
 <p align="center">
   <img src="docs/map.png" width="80%"/>
@@ -77,10 +89,12 @@ It demonstrates how personal finance data can be transformed into insights — u
 
 👉 Location reflects practical choices: CBD for leisure/shopping, local suburb for daily routines, Oakleigh and Tottenham for convenient refuelling near travel routes or visits.
 
-## Key Takeaways (Jan-Aug 2025)
+### Key Takeaways (Jan-Aug 2025)
 1. Housing dominates at 43%, anchoring spending every month.
 2. Car costs were irregular but heavy (insurance + plate renewal), not everyday fuel.
 3. Family visits explain the sharpest spikes in March–April.
 4. Daily convenience (fast food, local shops, subscriptions) shaped much of the flexible spending.
 5 With a small net deficit (–$55), reducing flexible spend by 10–15% would easily bring me back into surplus.
+
+# Conclusion
 
