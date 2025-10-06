@@ -19,7 +19,7 @@ It demonstrates how personal finance data can be transformed into insights — u
   <em>Fig. 2: Spending by Categories</em>
 </p>
 
-Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from insurance (March) and plate renewal (July). Eating Out reflected day-to-day convenience and occasional social dining.
+👉 Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from insurance (March) and plate renewal (July). Eating Out reflected day-to-day convenience and occasional social dining.
 
 ## Trends & Shifts
 
@@ -34,26 +34,53 @@ Housing was the biggest anchor every month. Motor Vehicle spending wasn’t abou
 - Average spend per purchase dropped from $71 → $47, meaning more small, everyday transactions replaced fewer large ones.
 - Net position peaked at +$852 in Feb before dipping to –$55 in Aug.
 
-Temporary family-related events explain the overspending spikes. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
+👉 Temporary family-related events explain the overspending spikes. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
 
 ## Spending Structure
-- Fixed: 51% (housing, utilities, subscriptions)
-- Semi-fixed: 20% (car + groceries)
-- Flexible: 27% (eating out, entertainment, shopping, vacations)
-- Other: 3% (new categories)
 
-👉 Insight: Over half of my budget is locked, but flexible areas still leave room for control.
+<p align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <img src="docs/expense_anchor.png" width="100%"/><br />
+        <em>Fig. 4.1: Anchor-Costs Distribution</em>
+      </td>
+      <td align="center">
+        <img src="docs/expense_anchor_2.png" width="100%"/><br />
+        <em>Fig. 4.2: Monthly Trend</em>
+      </td>
+    </tr>
+  </table>
+</p>
+
+- Fixed cost: housing, utilities, subscriptions
+- Semi-fixed cost: motor vehicle, groceries
+- Flexible: eating out, entertainment, retail, vacations
+- Other: new or irregular categories
+
+👉 Over half my budget is locked into fixed commitments. Semi-fixed costs (car + groceries) shift up or down slightly each month. Flexible spend is the main lever I can adjust — this is where lifestyle and choice-driven spending sit.
 
 ## Where I Spend It
-- CBD: 13% of Eating Out (restaurants, weekends) and 48% of Retail Shopping (clothes, electronics).
-- Suburb (Caulfield + Malvern East): 11% of Eating Out (fast food + convenience during daily walks).
-- Motor Vehicle: 10% on fuel (Oakleigh/Tottenham), 6% on CBD parking.
 
-👉 Insight: Location reflects lifestyle: CBD = leisure/social, Suburb = routine, Oakleigh/Tottenham = travel/social.
+<p align="center">
+  <img src="docs/map.png" width="40%"/>
+  <br />
+  <em>Fig. 5: Spending in Victoria</em>
+</p>
+
+- CBD: 19% of Eating Out (restaurants, weekends) + 57% of Retail (clothes, electronics).
+- Suburb (Caulfield + Malvern East): 16% of Eating Out, mostly fast food + convenience tied to daily walks.
+- Motor Vehicle:
+    + 30% on fuel in Oakleigh (convenient refuel point between home and city).
+    + Fuel in Tottenham (close to a friend’s place).
+    + 15% on CBD parking (mainly weekends).
+
+👉 Location reflects practical choices: CBD for leisure/shopping, local suburb for daily routines, Oakleigh and Tottenham for convenient refuelling near travel routes or visits.
 
 ## Key Takeaways (Jan-Aug 2025)
-1. Housing is the dominant anchor (43%).
-2. Family visits explain the sharpest expense spikes.
-3. Routines (daily walks, car use) strongly shape spending distribution.
-4. A minor deficit (–$55) highlights stability, but a limited buffer — reducing 10–15% flexible spend would restore surplus.
+1. Housing dominates at 43%, anchoring spending every month.
+2. Car costs were irregular but heavy (insurance + plate renewal), not everyday fuel.
+3. Family visits explain the sharpest spikes in March–April.
+4. Daily convenience (fast food, local shops, subscriptions) shaped much of the flexible spending.
+5 With a small net deficit (–$55), reducing flexible spend by 10–15% would easily bring me back into surplus.
 
