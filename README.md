@@ -38,8 +38,13 @@ Instead of focusing on daily precision, I built a system designed for monthly ac
 </p>
 
 # Results
-
 You can download the Power BI dashboard [here*](https://github.com/khoitran2603/Sales-Trends-and-Inventory-Analysis/blob/main/code/PigmentSquad_dashboard.pbix)
+
+  <p align="center">
+  <img src="docs/dashboard.png" width="80%"/>
+  <br />
+  <em>Monthly Transactions Dashboard</em>
+</p>
 
 ## Snapshot
 
