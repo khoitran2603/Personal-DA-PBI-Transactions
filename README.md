@@ -16,7 +16,7 @@ My biggest challenge was to standardize multiple bank exports (ANZ, Westpac, etc
         <em>Westpac raw dataset</em>
       </td>
       <td align="center">
-        <img src="docs/data_raw_anz.png" width="80%"/><br />
+        <img src="docs/data_raw_anz.png" width="100%"/><br />
         <em>ANZ raw dataset</em>
       </td>
     </tr>
