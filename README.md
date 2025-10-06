@@ -1,14 +1,14 @@
 ## About the Project
 This project applies data analytics techniques to my own bank transactions for the period from January to August 2025.
 
-The goal is to analyze spending behavior, identify patterns and anchors, and present findings in a clear, professional dashboard/report format.
+The goal is to analyse spending behaviour, identify patterns and anchors, and present findings in a clear, professional dashboard/report format.
 
 It demonstrates how personal finance data can be transformed into insights — useful both for self-management and as a showcase of my data storytelling skills in a portfolio.
 
 ## Snapshot
 
 <p align="center">
-  <img src="docs/kpi.png" width="40%"/>
+  <img src="docs/kpi.png" width="80%"/>
   <br />
   <em>Fig. 1: KPIs</em>
 </p>
@@ -24,7 +24,7 @@ It demonstrates how personal finance data can be transformed into insights — u
 ## Trends & Shifts
 
 <p align="center">
-  <img src="docs/income_expense.png" width="40%"/>
+  <img src="docs/income_expense.png" width="60%"/>
   <br />
   <em>Fig. 3: Monthly Trend</em>
 </p>
@@ -34,7 +34,7 @@ It demonstrates how personal finance data can be transformed into insights — u
 - Average spend per purchase dropped from $71 → $47, meaning more small, everyday transactions replaced fewer large ones.
 - Net position peaked at +$852 in Feb before dipping to –$55 in Aug.
 
-👉 Temporary family-related events explain the overspending spikes. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
+👉 Temporary family-related events explain the spikes in overspending. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
 
 ## Spending Structure
 
@@ -46,7 +46,7 @@ It demonstrates how personal finance data can be transformed into insights — u
         <em>Fig. 4.1: Anchor-Costs Distribution</em>
       </td>
       <td align="center">
-        <img src="docs/expense_anchor_2.png" width="100%"/><br />
+        <img src="docs/expense_anchor_2.png" width="80%"/><br />
         <em>Fig. 4.2: Monthly Trend</em>
       </td>
     </tr>
@@ -58,12 +58,12 @@ It demonstrates how personal finance data can be transformed into insights — u
 - Flexible: eating out, entertainment, retail, vacations
 - Other: new or irregular categories
 
-👉 Over half my budget is locked into fixed commitments. Semi-fixed costs (car + groceries) shift up or down slightly each month. Flexible spend is the main lever I can adjust — this is where lifestyle and choice-driven spending sit.
+👉 Over half my budget is locked into fixed commitments. Semi-fixed costs (car and groceries) fluctuate slightly each month. Flexible spend is the main lever I can adjust — this is where lifestyle and choice-driven spending sit.
 
 ## Where I Spend It
 
 <p align="center">
-  <img src="docs/map.png" width="40%"/>
+  <img src="docs/map.png" width="80%"/>
   <br />
   <em>Fig. 5: Spending in Victoria</em>
 </p>
