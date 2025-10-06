@@ -123,7 +123,7 @@ Location reflects practical choices: CBD for leisure/shopping, local suburb for 
 2. **Car costs were irregular but heavy** (insurance + plate renewal), not everyday fuel.
 3. **Family visits** explain the sharpest spikes in March–April.
 4. **Daily convenience** (fast food, local shops, subscriptions) shaped much of the flexible spending.
-5 With a small net deficit (–$55), reducing flexible spend by 10–15% would easily bring me back into surplus.
+5. With a small net deficit (–$55), reducing flexible spend by 10–15% would easily bring me back into surplus.
 
 # Conclusion
 This project transformed eight months of personal transactions into clear spending insights. By cleaning, categorising, and automating the data in SQL, I uncovered how fixed costs anchor my budget while events and convenience choices shape the rest. It showed how real-life financial data can tell meaningful stories — and how small adjustments, like reducing flexible costs, can quickly improve stability.
