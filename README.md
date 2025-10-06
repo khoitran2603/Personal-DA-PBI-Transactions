@@ -17,7 +17,7 @@ Instead of focusing on daily precision, I built a system designed for monthly ac
 
 You can download the Power BI dashboard [here*](https://github.com/khoitran2603/Sales-Trends-and-Inventory-Analysis/blob/main/code/PigmentSquad_dashboard.pbix)
 
-### Snapshot
+## Snapshot
 
 <p align="center">
   <img src="docs/kpi.png" width="80%"/>
@@ -33,7 +33,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
 
 👉 Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from annual insurance and plate renewal every 6 months. Eating Out reflected day-to-day convenience and occasional social dining.
 
-### Trends & Shifts
+## Trends & Shifts
 
 <p align="center">
   <img src="docs/income_expense.png" width="60%"/>
@@ -48,7 +48,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
 
 👉 Temporary family-related events explain the spikes in overspending. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
 
-### Spending Structure
+## Spending Structure
 
 <p align="center">
   <table>
@@ -72,7 +72,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
 
 👉 Over half my budget is locked into fixed commitments. Semi-fixed costs (car and groceries) fluctuate slightly each month. Flexible spend is the main lever I can adjust — this is where lifestyle and choice-driven spending sit.
 
-### Where I Spend It
+## Where I Spend It
 
 <p align="center">
   <img src="docs/map.png" width="80%"/>
@@ -89,7 +89,7 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
 
 👉 Location reflects practical choices: CBD for leisure/shopping, local suburb for daily routines, Oakleigh and Tottenham for convenient refuelling near travel routes or visits.
 
-### Key Takeaways (Jan-Aug 2025)
+## Key Takeaways (Jan-Aug 2025)
 1. Housing dominates at 43%, anchoring spending every month.
 2. Car costs were irregular but heavy (insurance + plate renewal), not everyday fuel.
 3. Family visits explain the sharpest spikes in March–April.
