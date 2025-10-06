@@ -19,20 +19,22 @@ It demonstrates how personal finance data can be transformed into insights — u
   <em>Fig. 2: Spending by Categories</em>
 </p>
 
-- Income: $33,230
-- Expenses: $33,285
-- Net Position: –$55 (covered by savings, no debt impact)
-- Categories: 14 | Sub-categories: 67
-- Top 3 Categories: Housing (43%), Motor Vehicle (11%), Eating Out (11%) → 65% of all spending
-
-👉 Insight: Spending is anchored by housing, with lifestyle costs forming the second tier.
+Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from insurance (March) and plate renewal (July). Eating Out reflected day-to-day convenience and occasional social dining.
 
 ## Trends & Shifts
-- Income steady at ~$3,800/month
-- Expenses spiked in March (family trip flight) and April (hosting family visit).
-- Average spend per purchase declined from $71 → $47, showing a move toward more frequent, smaller transactions.
 
-👉 Insight: Family events explain the biggest deviations in an otherwise stable pattern.
+<p align="center">
+  <img src="docs/income_expense.png" width="40%"/>
+  <br />
+  <em>Fig. 3: Monthly Trend</em>
+</p>
+
+- Income steady at ~$3,800/month.
+- Expense spikes: March (+25%) from family trip flight + annual car insurance, and April (+45%) hosting family from Vietnam.
+- Average spend per purchase dropped from $71 → $47, meaning more small, everyday transactions replaced fewer large ones.
+- Net position peaked at +$852 in Feb before dipping to –$55 in Aug.
+
+Temporary family-related events explain the overspending spikes. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
 
 ## Spending Structure
 - Fixed: 51% (housing, utilities, subscriptions)
