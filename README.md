@@ -6,6 +6,19 @@ The goal is to analyze spending behavior, identify patterns and anchors, and pre
 It demonstrates how personal finance data can be transformed into insights — useful both for self-management and as a showcase of my data storytelling skills in a portfolio.
 
 ## Snapshot
+
+<p align="center">
+  <img src="docs/kpi.png" width="40%"/>
+  <br />
+  <em>Fig. 1: KPIs</em>
+</p>
+
+<p align="center">
+  <img src="docs/pie.png" width="40%"/>
+  <br />
+  <em>Fig. 2: Spending by Categories</em>
+</p>
+
 - Income: $33,230
 - Expenses: $33,285
 - Net Position: –$55 (covered by savings, no debt impact)
