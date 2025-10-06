@@ -19,7 +19,7 @@ It demonstrates how personal finance data can be transformed into insights — u
   <em>Fig. 2: Spending by Categories</em>
 </p>
 
-👉 Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from insurance (March) and plate renewal (July). Eating Out reflected day-to-day convenience and occasional social dining.
+👉 Housing was the biggest anchor every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from annual insurance and plate renewal every 6 months. Eating Out reflected day-to-day convenience and occasional social dining.
 
 ## Trends & Shifts
 
@@ -69,7 +69,7 @@ It demonstrates how personal finance data can be transformed into insights — u
 </p>
 
 - CBD: 19% of Eating Out (restaurants, weekends) + 57% of Retail (clothes, electronics).
-- Suburb (Caulfield + Malvern East): 16% of Eating Out, mostly fast food + convenience tied to daily walks.
+- My Suburbs (Caulfield + Malvern East): 16% of Eating Out, mostly fast food + convenience tied to daily walks.
 - Motor Vehicle:
     + 30% on fuel in Oakleigh (convenient refuel point between home and city).
     + Fuel in Tottenham (close to a friend’s place).
