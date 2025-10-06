@@ -27,6 +27,13 @@ Instead of focusing on daily precision, I built a system designed for monthly ac
 
 # Project Building Summary
 
+- Data Preparation (SQL): Collected bank transactions from ANZ and Westpac CSV files and loaded them into a SQL database. Cleaned and standardised descriptions by removing extra symbols, timestamps, and card numbers. Combined all banks into one consistent table so every transaction followed the same structure.
+
+<p align="center">
+  <img src="docs/dataset_clean.png" width="80%"/>
+  <br />
+  <em>Cleaned Dataset (combined)</em>
+</p>
 
 # Results
 
