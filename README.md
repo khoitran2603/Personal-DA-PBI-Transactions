@@ -121,4 +121,4 @@ Location reflects practical choices: CBD for leisure/shopping, local suburb for 
 5 With a small net deficit (–$55), reducing flexible spend by 10–15% would easily bring me back into surplus.
 
 # Conclusion
-
+This project transformed eight months of personal transactions into clear spending insights. By cleaning, categorising, and automating the data in SQL, I uncovered how fixed costs anchor my budget while events and convenience choices shape the rest. It showed how real-life financial data can tell meaningful stories — and how small adjustments, like reducing flexible costs, can quickly improve stability.
