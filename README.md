@@ -1,8 +1,14 @@
 # Introduction
 
 ### About the Project
-This project analyses my own bank transactions from **January to August 2025**, turning raw personal finance data into clear, actionable insights.
-It aims to understand how real-world behaviours — like fixed commitments, family events, and convenience-driven habits — shape monthly spending patterns.
+This project analyses my personal bank transactions from January to August 2025 to evaluate whether I am living below my means — that is, whether my monthly spending consistently stays within my income.
+
+### The Question
+“If I earn around $4,000 per month, do I live below my means — or do my expenses exceed what I make?”
+
+This report answers that by looking at monthly cash flow — how much money came in, how much went out, and whether I ended each month in surplus or deficit.
+
+Rather than aiming for investment or savings targets, the focus here is cash behaviour realism — how money actually flows through daily life, influenced by events, convenience, and commitments.
 
 ### Project Challenge
 Personal finance data is often **unstructured, inconsistent, and event-driven**, making meaningful analysis difficult.
@@ -23,13 +29,14 @@ My biggest challenge was to **standardise multiple bank exports** (ANZ, Westpac,
   </table>
 </p>
 
-Instead of focusing on daily precision, I built a system designed for monthly accuracy, allowing me to observe realistic spending trends while accepting small timing delays in transaction posting.
+Therefore, instead of focusing on daily precision, I built a system designed for monthly accuracy, allowing me to observe realistic spending trends while accepting small timing delays in transaction posting.
 
 # Project Building Summary (SQL)
 
-- **Data Preparation**: Collected bank transactions from ANZ and Westpac CSV files and loaded them into a SQL database. Cleaned and standardised descriptions by removing extra symbols, timestamps, and card numbers. Combined all banks into one consistent table so every transaction followed the same structure.
-- **Data Cleaning & Categorisation**: Created logic to detect keywords in transaction details to assign spending categories such as Groceries, Entertainment, or Utilities. Added a suburb-matching step to estimate where each transaction occurred, allowing analysis by category and by location.
-- **Automation Procedures**: Built simple stored procedures that automatically clean and update new data each time a bank file is added. This removed the need for manual re-cleaning and made the process repeatable and consistent.
+- Merge multiple bank formats (ANZ, Westpac) into one unified dataset.
+- Clean and normalise descriptions, removing card numbers and repeated prefixes.
+- Automatically classify categories using pattern matching (e.g., “APPLE.COM” → Entertainment).
+- Extract locations from text strings by matching against a Melbourne suburb dictionary.
 
   <p align="center">
   <img src="docs/dataset_clean.png" width="70%"/>
@@ -46,79 +53,67 @@ You can download the Power BI dashboard [here*](https://github.com/khoitran2603
   <em>Monthly Transactions Dashboard</em>
 </p>
 
-## Snapshot
+## Income vs Expense Overview
+(Linked to Visual 1: Monthly Income vs Expense Trend)
 
-<p align="center">
-  <img src="docs/kpi.png" width="80%"/>
-  <br />
-  <em>Fig. 1: KPIs</em>
-</p>
+- Over 8 months, my total spending ($33,285) nearly equals my total income ($33,230), leaving a small deficit of -$55.
+- While most months' expenses stayed below income, overspending would happen on occasion, for instance, from March-April, I spent approximately 25-45% more than my income for family travel and hosting when they come from overseas to visit. 
 
-<p align="center">
-  <img src="docs/pie.png" width="40%"/>
-  <br />
-  <em>Fig. 2: Spending by Categories</em>
-</p>
+🟢This indicates tight balance control, in which I am essentially living within my means when not influenced by special events.
+  
+## Cash Flow Over Time
+(Linked to Visual 2: Cumulative Net Cash Flow)
 
-Paying rent (Housing) was the biggest expense every month. Motor Vehicle spending wasn’t about regular fuel use — it spiked from **annual insurance** and **plate renewal every 6 months**. Eating Out reflected day-to-day convenience and occasional social dining.
+This chart tracks how my cash position evolved over eight months.
+- The cumulative balance rose early in the year and reached its highest point in February ($1,536), then dipped sharply and reached its lowest point in May (-$3,000) before recovery onward.
+  
+"This shows strong control where short-term overspending doesn't create long-term imbalance."
 
-## Trends & Shifts
+- Even with high fluctuations but minor, the cumulative line ends still close to zero, confirming that I operated at or slightly below my means, with no sustained deficit.
 
-<p align="center">
-  <img src="docs/income_expense.png" width="60%"/>
-  <br />
-  <em>Fig. 3: Monthly Trend</em>
-</p>
+## Spending Structure & Flexibility
+(Linked to Visual 3: Expense Composition — Doughnut Chart)
 
-- Income steady at ~$3,800/month.
-- Expense spikes: **March (+25%)** from family trip flight + annual car insurance, and **April (+45%)** hosting family from Vietnam.
-- Average spend per purchase dropped from **$71 → $47**, meaning more small, **everyday transactions** replaced fewer large ones.
-- Net position peaked at **+$852 in Feb** before dipping to **–$55 in Aug**.
+To evaluate whether I’m living below my means, I grouped my spending into four structural types:
 
-Temporary family-related events explain the spikes in overspending. Outside of these, spending followed smaller but more frequent habits (groceries, convenience food, subscriptions).
+|**Type**|**Flexibility**|**Description**|
+| :- | :- | :- |
+|Fixed|None|Rent, utilities, subscriptions - unavoidable costs.|
+|Semi-fixed|Low|Vehicle, groceries - somewhat controllable.|
+|Flexible|High|Eating out, entertainment, retail - lifestyle-driven.|
+|Other|Varies|New or irregular categories.|
 
-## Spending Structure
+- More than half of my budget is locked into predictable commitments, creating a reliable financial base cost.
 
-<p align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <img src="docs/expense_anchor.png" width="100%"/><br />
-        <em>Fig. 4.1: Anchor-Costs Distribution</em>
-      </td>
-      <td align="center">
-        <img src="docs/expense_anchor_2.png" width="80%"/><br />
-        <em>Fig. 4.2: Monthly Trend</em>
-      </td>
-    </tr>
-  </table>
-</p>
+🎯The flexible cost (27%) is the deciding factor in whether I live below my means. It represents my lifestyle and choice-driven spending.
 
-- **Fixed** cost: housing, utilities, subscriptions
-- **Semi-fixed** cost: motor vehicle, groceries
-- **Flexible** cost: eating out, entertainment, retail, vacations
-- **Other** cost: new or irregular categories
+- By trimming flexible costs by just 5-10%, I could ensure a consistent extra ~$100 per month without affecting essential comfort.
 
-Over half my budget is locked into fixed commitments. Semi-fixed costs (car and groceries) fluctuate slightly each month. Flexible spend is the main lever I can adjust — this is where lifestyle and choice-driven spending sit.
+## Flexible Spending Breakdown
+(Linked to Visual 4: Category Deep-Dive — Bar Chart)
 
-## Where I Spend It
+Within flexible costs:
+- Eating Out accounts for the largest share (39%), made by medium and frequent purchases (106 transactions)
+- Fun & Vacation (26%) appears as one-time spikes (March-April)
+- Retail Shopping (21%) follows, reflecting weekend and social spending
 
-<p align="center">
-  <img src="docs/map.png" width="80%"/>
-  <br />
-  <em>Fig. 5: Spending in Victoria</em>
-</p>
+🍔 Most flexible spending ties to convenience or social activities, not impulsive luxury.
 
-- **CBD**: 19% of Eating Out (restaurants, weekends) + 57% of Retail (clothes, electronics).
-- My Suburbs **(Caulfield + Malvern East)**: 16% of Eating Out, mostly fast food + convenience tied to daily walks.
-- **Motor Vehicle**:
-    + 30% on fuel in **Oakleigh** (convenient refuel point between home and city).
-    + Fuel in **Tottenham** (close to a friend’s place).
-    + 15% on CBD parking (mainly weekends).
+Visual 4 highlights how small daily choices (fast food, coffee, short outings) collectively influence whether I stay below my means. This visibility turns “overspending” into precise, measurable, and adjustable.
 
-Location reflects practical choices: CBD for leisure/shopping, local suburb for daily routines, Oakleigh and Tottenham for convenient refuelling near travel routes or visits.
+## Location Patterns
+(Linked to Visual 5: Location-Aware Map)
 
-## Key Takeaways (Jan-Aug 2025)
+Inner Melbourne (Melbourne + Southbank), Local Suburb (Caulfield), and Workplace Suburb (Springvale) are where I spent most of my money, which reflects how I live:
+- **Inner Melbourne (CBD)**: Mainly on weekends, mostly for eating at restaurants, parking, and retail shopping such as clothes, electronics, and home furniture. 
+- **Local Suburbs**: Over 80% spend on groceries for everyday needs, eating out (15%) mostly for fast food + convenience tied to daily walking habit.
+- **Workplace Suburb**: For lunch break eating and after-work groceries.
+
+Visual 5 shows that high-spend areas align with planned or convenient locations, not random or wasteful ones
+
+🗺️ Location spending validates behaviour logic — even flexible spending is practical.
+
+## Key Takeaways
 1. **Housing dominates** at 43%, anchoring spending every month.
 2. **Car costs were irregular but heavy** (insurance + plate renewal), not everyday fuel.
 3. **Family visits** explain the sharpest spikes in March–April.
