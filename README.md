@@ -52,7 +52,7 @@ Instead of chasing daily precision, I designed a system optimised for **monthly 
 ---
 
 ## 📊 Results
-You can download the Power BI dashboard [here*](https://github.com/khoitran2603/Personal-DA-PBI-Transactions/blob/main/Spending%20Dashboard.pbix)
+You can download the Power BI dashboard [here*](https://github.com/khoitran2603/Personal-DA-PBI-Transactions/blob/main/spending%20dashboard.pbix)
 
   <p align="center">
   <img src="docs/dashboard.png" width="80%"/>
